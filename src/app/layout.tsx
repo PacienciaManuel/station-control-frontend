@@ -1,8 +1,11 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
+import './globals.css';
+import type { Metadata } from 'next';
+import { Nunito } from 'next/font/google';
+import ReduxProvider from '@/redux/ReduxProvider';
+import ThemeProviders from '@/providers/ThemeProviders';
+import BeforeUnloadProvider from '@/providers/BeforeUnloadProvider';
 
-const inter = Inter({ subsets: ['latin'] });
+const nunito = Nunito({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     title: 'Station Control',
@@ -14,8 +17,19 @@ export default function RootLayout({ children }: {children: React.ReactNode}) {
         <html lang="pt_AO">
             <head>
                 <meta httpEquiv="content-type" content="text/html; charset=UTF-8"/>
+                {/* <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css"/>
+                <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style"/>
+                <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style"/> */}
             </head>
-            <body className={inter.className}>{children}</body>
+            <body className={nunito.className}>
+                <ReduxProvider>
+                    <ThemeProviders>
+                        <BeforeUnloadProvider>
+                            {children}
+                        </BeforeUnloadProvider>
+                    </ThemeProviders>
+                </ReduxProvider>
+            </body>
         </html>
     )
 }

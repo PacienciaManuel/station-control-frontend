@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const users = [
+            {
+                "nome": "Ana Maria",
+                "genero": "Feminino",
+                "dataNascimento":"2001-04-06",
+                "email": "anamaria@gmail.com",
+                "papel": "Administrador",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Rita Mulato",
+                "genero": "Feminino",
+                "dataNascimento":"2002-08-12",
+                "email": "ritamulato@gmail.com",
+                "papel": "Administrador",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Margarida Amaro",
+                "genero": "Feminino",
+                "dataNascimento":"1996-03-08",
+                "email": "margaridaamaro@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Venacio Chicala",
+                "genero": "Masculino",
+                "dataNascimento":"2002-12-19",
+                "email": "venaciochicala@gmail.com",
+                "papel": "Administrador",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Adelina Miguel",
+                "genero": "Feminino",
+                "dataNascimento":"1996-08-14",
+                "email": "adelinamiguel@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Adelino Miguel",
+                "genero": "Masculino",
+                "dataNascimento":"1996-10-20",
+                "email": "adelinomiguel@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Ator Godino",
+                "genero": "Masculino",
+                "dataNascimento":"1999-10-16",
+                "email": "atorgodinho@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Cacoma Chissola",
+                "genero": "Masculino",
+                "dataNascimento":"1996-03-08",
+                "email": "cacomachissola@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Estefânia da Silva",
+                "genero": "Feminino",
+                "dataNascimento":"2001-10-12",
+                "email": "estefaniasilva@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Fernando Castro",
+                "genero": "Masculino",
+                "dataNascimento":"1998-02-07",
+                "email": "fernandocastro@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Filipe António",
+                "genero": "Masculino",
+                "dataNascimento":"2000-05-13",
+                "email": "filipeantonio@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Garcia",
+                "genero": "Masculino",
+                "dataNascimento":"2000-04-20",
+                "email": "garcia@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Geovana Viera",
+                "genero": "Feminino",
+                "dataNascimento":"2002-11-02",
+                "email": "geovanaviera@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Gideão Chissola",
+                "genero": "Masculino",
+                "dataNascimento":"1998-03-08",
+                "email": "gideaochissola@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "João Sardinha",
+                "genero": "Masculino",
+                "dataNascimento":"2002-02-17",
+                "email": "joaosardinha@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Jorge Costa",
+                "genero": "Masculino",
+                "dataNascimento":"1999-07-26",
+                "email": "jorgecosta@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "José Pedro Hebo",
+                "genero": "Masculino",
+                "dataNascimento":"1991-08-19",
+                "email": "josepedrohebo@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "José Wamana",
+                "genero": "Masculino",
+                "dataNascimento":"1998-05-16",
+                "email": "josewamana@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Teresa Augusto",
+                "genero": "Feminino",
+                "dataNascimento":"2002-09-05",
+                "email": "teresaaugusto@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Octair Bernardino",
+                "genero": "Masculino",
+                "dataNascimento":"1995-10-27",
+                "email": "octairbernardino@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Diana Pedro Hebo",
+                "genero": "Feminino",
+                "dataNascimento":"2000-04-17",
+                "email": "dianapedrohebo@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Marlene Pedro Hebo",
+                "genero": "Feminino",
+                "dataNascimento":"1998-11-08",
+                "email": "marlenepedrohebo@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Biatriz Pedro Hebo",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "biatrizpedrohebo@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Adelaide Abrão Upale Alberto",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "adelaideabraoupalealberto@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Mikana Upale Alberto",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "mikanaupalealberto@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Isaias Miguel",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "isaiasmiguel@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Lourenço Tchiuka",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "lourencotchiuka@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Neves Tchiuka",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "nevestchiuka@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Domingos Wassamba Samilonga",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "domingoswassambasamilonga@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Obede Pedro Hebo",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "obedepedrohebo@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Francisco Afonso",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "franciscoafonso@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Márcio Manuel Morais",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "marciomanuelmorais@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Jóse António",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "joseantonio@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Josimar Manuel Magalhaês",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "josimarmanuel@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Piter Pina Mendez",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "piterpinamendez@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Rosa Mecheque",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "rosamecheque@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Paulina António",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "paulinaantonio@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Isabel Conseição",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "isabelconseicao@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Lindafrica Pereira",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "lindafricapereira@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Netolas",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "netolas@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Sérgio Mussopa",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "sergiomussopa@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Sérgio Cassoca",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "sergiocassoca@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Esperança Davoca",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "esperancadavoca@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Rafa Chissoola",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "rafachissoola@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Raimundo Rai-G",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "raimundo@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Santiago Agostinho",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "santiagoagostinho@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Dinho Bernardino",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "bernardino@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Saní Pedro Hebo",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "sanipedrohebo@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Neusa Fininha",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "neusafininha@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Rebeca Abrão Alberto",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "rebecaabraoalberto@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },	
+            {
+                "nome": "Gilberto",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "gilberto@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Marcolino",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "marcolino@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Mbele Tanks",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "mbeletanks@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Bernardino (UCAN)",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "bernardinoucan@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Victor Lituai",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "victorlituai@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Lourenço Tchiyuca",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "lourencotchiyuca@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Elder",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "elder@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Agostinho",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "agostinho@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Vitó (Tinha Minga)",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "vito@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Bruno Vick",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "brunovick@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Netox Netolas",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "netoxnetolas@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Tio Rafa",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "tiorafa@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Guidinha",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "guidinha@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Fefa",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "fefa@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Nela",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "nela@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Rodé",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "rode@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Urucutcho",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "urucutcho@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Marcelina (Life)",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "marcelinalife@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Bebucha (Abobse)",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "bebuchaabobse@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Horácio Jaione",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "horaciojaione@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Jorge (Bojí)",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "jorgeboji@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Evânia Noémia",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "evanianoemia@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Eliete Vilinga",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "elietevilinga@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Cliana Malange",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "clianamalange@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Cristina",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "cristina@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Célcia",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "celcia@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Emiliana",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "emiliana@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Armelindo",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "armelindo@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Belger",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "belger@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Jesus (UCAN)",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "jesusucan@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Neusa",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "neusa@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Cebola",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "cebola@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Erivelto Clénio",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "eriveltoclenio@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Cleidinir Adriano",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "cleidiniradriano@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Jonas",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "jonas@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Bruno (Tidado)",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "brunotidado@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Cabila",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "cabila@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Mucazo",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "mucazo@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Sérgio Nonó",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "sergionono@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Ginga",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "ginga@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Elsa",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "elsa@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Sara",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "sara@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },	
+            {
+                "nome": "Maura Lituai",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "mauralituai@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Diolinda Tchiyuca",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "diolindatchiyuca@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Sara Tchiyuca",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "saratchiyuca@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Adriana",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "adriana@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Belamino (Bairo Muxicano)",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "belaminomuxicano@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Jerónimo (Pipo Choque)",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "jeronimo@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "NGA (Mussende)",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "ngamussende@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },	
+            {
+                "nome": "Alex Tchiyuca",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "alextchiyuca@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Jamba Tchiyuca",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "jambatchiyuca@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Cristo Tchiyuca",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "cristotchiyuca@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Gerônimo (Pito Choque)",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "geronimoputochoque@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Sara (Nevez)",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "saranevez@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Wisma",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "wisma@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Chica",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "chica@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Laura",
+                "genero": "Feminino",
+                "dataNascimento":"2001-03-11",
+                "email": "laura@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            },
+            {
+                "nome": "Bebucho (Nela)",
+                "genero": "Masculino",
+                "dataNascimento":"2001-03-11",
+                "email": "bebuchonela@gmail.com",
+                "papel": "Usuário",
+                "senha":"12345678"
+            }
+        ];
+
+        const lorems = [
+            "O cliente é muito importante, o cliente será seguido pelo cliente. Maurice é o autor da Internet. Como ele precisa de um pote diferente. Essa urna não é um grande cabo. O preço do consultório médico do hendrerit. Agora é hora de beber, e agora é hora de beber. A necessidade de Morbi de um tiroteio no ensino médio. Mecenas volutpat quam et just ultricies quiver. Enéias na frente. Duis feugiat agora felis, e o vale teme aculis mas. Inteiro ou grande. Aenean Lacinia e é e investe.",
+            "Na época da peste, ela engravidou. Intacto como meus velhos amigos. Não há autor que cuide do mar, nem do mar. No site oficial. O elemento do navio será seguido pelo portão. Agora, para a dor, os imóveis na companhia aérea, a vantagem e o lago. Mas agora é um bom momento, se não às vezes. Amanhã em sapien eu nem rhoncus convallis como em eros. Sim, ou a menos que a massa. Antes não há busca de eros, seja pelo preço do fabricante ou do fabricante. Mas deixemos que a política seja levada a sério. Vai ser muito fácil. Mas não há necessidade de dor, é hora de mim, minha propriedade. Não há gatilho da lacinia feugiat pura. Não há gatilho e, às vezes, o desempenho clínico não é acompanhado.",
+            "Na verdade, alguma sabedoria foi dita. Infelizmente, ele não financiou. Preciso ter medo das crianças. Maximus feugiat está vivo. Futebol futebol não é um grande jogo, mas é uma dor. Vivamus tincidunt massa eros, ultricias disse que sempre precisa de um torturador. Para ser o mais livre possível, não há veículos de elite eleifend. Não há tempo para passar o tempo. A massa dos caminhões dos funcionários deve ser enfeitada. Uma cama grande e fácil de usar, do tamanho de uma bola de futebol. O próprio Mecenas às vezes, mas o portão é puro. Amanhã não vou sair da cama.",
+            "Quanto à garganta, o sorriso não deve ser posto no ultrice, nem o corpo deve receber ódio, os veículos do masculino e do feminino. Amanhã tincidunt em nibh id rutrum. Todos queriam tratamento médico, mas não se dizia que eram adolescentes. Mas só a massa, o elemento e o grande futebol, a camada sempre esteve lá. O medo da doença irá financiá-lo, ou o vulputado o fará. As crianças vivem com doenças, velhice e crianças, e sofrem com a fome e a pobreza. Agora vamos dar uma olhada no site. In mollis dui eget mauris sadis, quis quis quis nisl elementum. É uma preocupação quanto custa o travesseiro de basquete, agora o desenvolvedor de internet quer ser o grande ultricies tortor orci que é. Até o final do jogo, a sabedoria do eleifend, e não das crianças. Mas os integrantes do arco de Lacinia, que odeiam o resultado de sua carreira. Agora a terra será perseguida, nem sempre durante um fim de semana. Na verdade, o resultado do luto é esperado. O cliente é muito importante, o cliente será seguido pelo cliente. Às vezes a fome é esperada e antes é a primeira coisa na garganta.",
+            "O cliente é muito importante, o cliente será seguido pelo cliente. Morar em uma caçamba de veículo não é puro fim de semana. Até que o chocolate fique puro, é bom usar um palito grande. Era uma bola de futebol ou uma piscina de desenho animado. Vestibulum faucibus auge dui, nem venenatis orci eleifend as. Mecenas investirá desde o momento do banco. Enéias na salada da vida, o elemento do ódio, ou de outra pessoa. Quem quer ser envenenado por veneno?",
+            "Para colocar Enéias, os jogadores deveriam ser muito vestibulum accumsan, os jogadores são puros bajuladores apenas, na massa dignissim não há ódio à vida. Fusce arcu ante, feugiat vitae massa at, egestas molestie felis. Algumas delas ficaram com medo e a cama estava grávida. Viva os Ultricies, a elite não vai financiar o elemento, minha dor é não, o Ultricies é a maior elite pura de sabedoria. Os membros da família de Venetus devem ser lidos com tremor. Futebol, a menos que a massa do desenho animado do cassino ou e a menos. Até a fringilla eleifend, aquele ultris muito ultris. Duis ou o medo da camada, a funcionária quer ser mole, a gravidez é pura. Segundo a história do cliente, não é feito pelas autoridades.",
+            "Não há nada fácil. Agora o percurso dos jogadores, não lisonjeia o nível. Não há vale ou flecha. Não existe um ótimo molho para salada, qualquer pessoa deve sempre beber molho para salada. O desenvolvimento do desenvolvimento do desenvolvimento é o fim da vida. Nenhum membro das crianças antes. Cada propriedade, nibh dapibus commodo molestie, ex leo tempor orci, preço claro ex ódio, mas antes. Vestibulum euismod, ligula at hendrerit viverra, o que odeia ódio suave, ou cursus medo lectus quis dui. Não existe urna eufórica eufórica.",
+            "Pois às vezes, apenas por causa de uma grande carreira, os hendrerit temem o feugiat. Até que os membros da terra estivessem, mas pura dor grávida a. É uma política de vida para o curso. Também está na frente. É um torturador com medo de caminhões venenosos também. Quem era toda a camada ecológica da terra? Agora decore o quintal.",
+            "Não há necessidade de adornar o laureado sapien luctus venenatis. Hendrerit não tem massa vital, sempre a urna, mas a necessidade é pura. A vida é divertida. De vez em quando, mas o maior dos meus. Odeio trânsito e carros. Mecenas e da urna. Mas eu não odiava o Euismod e os alunos eram educados. Não existia futebol.",
+            "Até que ele precise que lhe digam o que quer. Mas na Internet. Mas isso é feito com aljava ou flechas. É fácil decorar o laço no tincidunt. Coloque o barco em luto. Até os veículos dos jogadores de futebol, os desenvolvedores estão prontos para decorar o relógio. Até que ele precisou de uma ervilha. Morbi free diam, gargantas em ódio e flechas em ódio ao inimigo. No basquete, o preço é tão alto quanto no futebol. Mecenas scelerisque urna condimentum Tellus malesuada, nec rutrum purus tincidunt. Até então, o próprio futebol. As crianças na macro não têm momentos tranquilos. Por algum tempo, antes do escritório, ele não queria beber apenas.",
+        ];
+
+        function randomIntFromInterval(min, max) { // min and max included 
+            return Math.floor(Math.random() * (max - min + 1) + min)
+        }
+
+        console.log(users.map(user =>({
+            nome: user.nome,
+            genero: user.genero,
+            dataNascimento: user.dataNascimento,
+            email: user.email,
+            papel: Math.random() - 0.5 > 0 ? "Administrador" : "Usuário",
+            senha: user.senha,
+            morada: `Casa ${randomIntFromInterval(1, 2000)}, Rua ${randomIntFromInterval(1, 2000)} - Viana - Luanda`,
+            numero: `+244 ${randomIntFromInterval(912_000_000, 999_000_000)}`,
+            notaInformativa: lorems[Math.floor(Math.random() * lorems.length)],
+        })));
+    </script>
+</body>
+</html>
