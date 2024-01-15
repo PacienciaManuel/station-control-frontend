@@ -18,9 +18,9 @@
 
 <h3>Motivo da Escolha</h3>
 
-<p>Tendo conta o paradigma que hoje em dia é muito adotado no caso o paradigma de microserviços, surgiu a necessidade de fazer uso de um framework que possui-se tais pricípios, com base nisso foi feita varias pesquisas que fez-nos chegar a conclusão que o <i>NextJS 🔥</i> crumpre perfeitamente as características que funcionarão melhor no sistema <b>Station Control</b>.</p>
+<p>Tendo conta o paradigma que hoje em dia é muito adotado no caso o paradigma de microserviços, surgiu a necessidade de fazer uso de um framework que possui-se tais pricípios, com base nisso foi feita varias pesquisas que fez-nos chegar a conclusão que o <b><i>NextJS❤️</i></b> crumpre perfeitamente as características que funcionarão melhor no sistema <b>Station Control</b>.</p>
 
-<h2>React Query 📶</h2>
+<h2>📶React Query📶</h2>
 
 <p><i>React Query</i> O React Query é uma biblioteca para gerenciamento de estado em aplicações React que facilita a busca, atualização e manipulação de dados. Ela foi projetada para simplificar a gestão do estado da aplicação quando se trata de dados vindos de APIs ou outras fontes externas.</p>
 
@@ -50,7 +50,7 @@
   <li><b>Tratamento de erros:</b> Oferece maneiras de lidar com erros de forma eficiente, exibindo mensagens de erro apenas nos campos relevantes.</li>
 </ol>
 
-<h2>Redux 🔥</h2>
+<h2>🔥Redux🔥</h2>
 
 <p><i>Redux</i> é uma biblioteca de gerenciamento de estado para aplicativos JavaScript, especialmente aqueles que são construídos usando bibliotecas como React ou Angular. Ele fornece um contêiner previsível para o estado da aplicação, tornando mais fácil o gerenciamento do estado da aplicação de maneira consistente.</p>
 
@@ -62,9 +62,9 @@
   <li><b>As Mudanças São Feitas Através de Funções Puras (Changes are Made Through Pure Functions):</b> As "reducers" são funções puras que especificam como o estado da aplicação muda em resposta a uma "action". Elas recebem o estado atual e uma "action" e retornam um novo estado.</li>
 </ol>
 
-<h2>Material UI & Mantine UI 🔥</h2>
+<h2>✨Material UI & Mantine UI✨</h2>
 
-<p><i>Material UI & Mantine UI</i> são bibliotecas de UI Compenents que simplifica o processo de criação de componentes que podem ser reutizaveis.</p>
+<p><b><i>Material UI & Mantine UI</i></b> são bibliotecas de UI Compenents que simplifica o processo de criação de componentes que podem ser reutizaveis.</p>
 
 <h3>Material UI:</h3>
 
