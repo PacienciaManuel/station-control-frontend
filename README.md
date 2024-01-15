@@ -5,11 +5,11 @@
 <h2>Tecnologiia/bibiotecas Usadas:</h2>
 
 <ul>
-  <li>🔥NextJS🔥</li>
-  <li>React Query📶</li>
-  <li>React Hook Form⭐</li>
-  <li>Redux</li>
-  <li>Material UI & Mantine UI</li>
+  <li><a href="#">❤️NextJS❤️<a/></li>
+  <li>📶React Query📶</li>
+  <li>⭐React Hook Form⭐</li>
+  <li>🔥Redux🔥</li>
+  <li><a href="#ui">✨Material UI & Mantine UI✨<a/></li>
 </ul>
 
 <h2>❤NextJS❤️</h2>
@@ -62,7 +62,7 @@
   <li><b>As Mudanças São Feitas Através de Funções Puras (Changes are Made Through Pure Functions):</b> As "reducers" são funções puras que especificam como o estado da aplicação muda em resposta a uma "action". Elas recebem o estado atual e uma "action" e retornam um novo estado.</li>
 </ol>
 
-<h2>✨Material UI & Mantine UI✨</h2>
+<h2 id="ui">✨Material UI & Mantine UI✨</h2>
 
 <p><b><i>Material UI & Mantine UI</i></b> são bibliotecas de UI Compenents que simplifica o processo de criação de componentes que podem ser reutizaveis.</p>
 
