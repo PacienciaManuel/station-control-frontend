@@ -1,4 +1,4 @@
-![logo](https://img.freepik.com/vetores-premium/departamento-de-policia-edificio-ilustracao-vetorial-com-policial-e-carro-em-estilo-cartoon-plana_2175-4436.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1704412800&semt=ais)
+![logo](https://img.freepik.com/vetores-premium/policial-com-carro-da-policia-na-frente-da-delegacia-de-policia_43880-37.jpg?w=1060)
 # Station Control
 
 <p>Esta é uma apicação frontend para o gereciamento de uma delegacia policial.</p>
