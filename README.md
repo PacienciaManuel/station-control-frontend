@@ -5,14 +5,14 @@
 <h2>Tecnologiia/bibiotecas Usadas:</h2>
 
 <ul>
-  <li><a href="#">❤️NextJS❤️<a/></li>
-  <li>📶React Query📶</li>
-  <li>⭐React Hook Form⭐</li>
-  <li>🔥Redux🔥</li>
+  <li><a href="#nextjs">❤️NextJS❤️<a/></li>
+  <li><a href="#react-query">📶React Query📶<a/></li>
+  <li><a href="#react-hook-form">⭐React Hook Form⭐<a/></li>
+  <li><a href="#redux">🔥Redux🔥<a/></li>
   <li><a href="#ui">✨Material UI & Mantine UI✨<a/></li>
 </ul>
 
-<h2>❤NextJS❤️</h2>
+<h2 id="nextjs">❤NextJS❤️</h2>
 
 <p>NextJS é um framework construido por cima do ecossistema do ReactJS com o objectivo de facilitar no precesso de desenvolvimento de SPAs(Sigle Page Application)</p>
 
@@ -20,7 +20,7 @@
 
 <p>Tendo conta o paradigma que hoje em dia é muito adotado no caso o paradigma de microserviços, surgiu a necessidade de fazer uso de um framework que possui-se tais pricípios, com base nisso foi feita varias pesquisas que fez-nos chegar a conclusão que o <b><i>NextJS❤️</i></b> crumpre perfeitamente as características que funcionarão melhor no sistema <b>Station Control</b>.</p>
 
-<h2>📶React Query📶</h2>
+<h2 id="react-query">📶React Query📶</h2>
 
 <p><i>React Query</i> O React Query é uma biblioteca para gerenciamento de estado em aplicações React que facilita a busca, atualização e manipulação de dados. Ela foi projetada para simplificar a gestão do estado da aplicação quando se trata de dados vindos de APIs ou outras fontes externas.</p>
 
@@ -35,7 +35,7 @@
   <li><b>DevTools:</b> Possui ferramentas de desenvolvedor (DevTools) que auxiliam na depuração e monitoramento do estado da aplicação.</li>
 </ol>
 
-<h2>⭐React Hook Form⭐</h2>
+<h2 id="react-hook-form">⭐React Hook Form⭐</h2>
 
 <p><i>React Hook Form</i> O React Hook Form é uma biblioteca popular para gerenciar formulários em aplicações React usando hooks. Essa biblioteca simplifica o processo de criação e manipulação de formulários, tornando o código mais limpo e fácil de entender.</p>
 
@@ -50,7 +50,7 @@
   <li><b>Tratamento de erros:</b> Oferece maneiras de lidar com erros de forma eficiente, exibindo mensagens de erro apenas nos campos relevantes.</li>
 </ol>
 
-<h2>🔥Redux🔥</h2>
+<h2 id="redux">🔥Redux🔥</h2>
 
 <p><i>Redux</i> é uma biblioteca de gerenciamento de estado para aplicativos JavaScript, especialmente aqueles que são construídos usando bibliotecas como React ou Angular. Ele fornece um contêiner previsível para o estado da aplicação, tornando mais fácil o gerenciamento do estado da aplicação de maneira consistente.</p>
 
