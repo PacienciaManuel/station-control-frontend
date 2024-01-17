@@ -8,7 +8,6 @@ import '@mantine/notifications/styles.css';
 import { ModalsProvider } from '@mantine/modals';
 import { Notifications } from '@mantine/notifications';
 import { MantineProvider, createTheme as createMantineTheme, rem, } from '@mantine/core';
-
 import "dayjs/locale/pt-br"
 import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
@@ -65,6 +64,7 @@ const theme = createTheme({
             defaultProps: {
                 style: {
                     borderColor: "#aab8c5",
+
                 }
             }
         },
