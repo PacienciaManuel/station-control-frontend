@@ -11,7 +11,7 @@ import { MantineProvider, createTheme as createMantineTheme, rem, } from '@manti
 import "dayjs/locale/pt-br"
 import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
-import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
+import { CssBaseline, ThemeProvider, colors, createTheme } from '@mui/material';
 
 const theme = createTheme({
     palette: {
@@ -20,6 +20,7 @@ const theme = createTheme({
             "500": "#727cf5",
             contrastText: "#aab8c5",
         },
+        secondary: colors.deepOrange,
         background: {
             paper: "#f0f8ff",
             default: "#37404a",
@@ -29,7 +30,7 @@ const theme = createTheme({
         fontFamily: '"Nunito", "Arial",sans-serif',
         fontWeightMedium: 700,
         h1: {
-            fontSize: rem(64),
+            fontSize: rem(48),
         },
         h2: {
             fontSize: rem(32),
@@ -98,8 +99,8 @@ const mantineTheme = createMantineTheme({
         fontFamily: '"__Nunito_3dc409", "__Nunito_Fallback_3dc409", "Arial",sans-serif',
     },
     colors: {
-        blue: ["#E7F5FF","#D0EBFF","#A5D8FF","#74C0FC","#4DABF7","#339AF0","#1488fa","#1C7ED6","#1971C2","#1864AB"]
-    }
+        blue: ["#E7F5FF","#D0EBFF","#A5D8FF","#74C0FC","#4DABF7","#339AF0","#727cf5","#4f56ab","#1971C2","#1864AB"],
+    },
 });
 
 export default function ThemeProviders({ children }:{children: React.ReactNode}) {
@@ -107,12 +108,12 @@ export default function ThemeProviders({ children }:{children: React.ReactNode})
         <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale="pt-br">
             <MantineProvider theme={mantineTheme} defaultColorScheme="light">
                 <Notifications  position="bottom-right" zIndex={3000} />
-                <ModalsProvider>
-                    <ThemeProvider theme={theme}>
-                        <CssBaseline />
+                <ThemeProvider theme={theme}>
+                    <CssBaseline />
+                    <ModalsProvider modalProps={{centered: true, zIndex: 2999, overlayProps: {blur: 5, bg: "none"}}}>
                         { children }
-                    </ThemeProvider>
-                </ModalsProvider>
+                    </ModalsProvider>
+                </ThemeProvider>
             </MantineProvider>
         </LocalizationProvider>
     )

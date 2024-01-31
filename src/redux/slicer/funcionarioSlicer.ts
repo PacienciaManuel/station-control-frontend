@@ -3,6 +3,7 @@ import Telefone from '@/model/Telefone';
 import type { RootState } from '../store';
 import Funcionario from '@/model/Funcionario';
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import Pais from '@/model/Pais';
 
 export const funcionarioSlice = createSlice({
     name: 'funcionario',
@@ -36,8 +37,16 @@ export const funcionarioSlice = createSlice({
             return {...state, fotoPerfil: payload};
         },
 
-        changePhone: (state, { payload }: PayloadAction<Telefone>) => {
-            return {...state, telefone: payload};
+        changeCountry: (state, { payload }: PayloadAction<Pais>) => {
+            return {...state, pais: payload};
+        },
+
+        addPhone: (state, { payload }: PayloadAction<Telefone>) => {
+            return {...state, telefones: state.telefones.concat(payload)};
+        },
+
+        removePhone: (state, { payload }: PayloadAction<Telefone>) => {
+            return {...state, telefones: state.telefones.filter(t => t.id !== payload.id)};
         },
 
     }
@@ -46,7 +55,8 @@ export const funcionarioSlice = createSlice({
 export const { 
     changeFuncionario, changeGender, 
     changeBirthDate, changeEmail, changeMorada, 
-    changeBiografia, changeProfilePhoto, changePhone,
+    changeBiografia, changeProfilePhoto, 
+    changeCountry, addPhone, removePhone,
 } = funcionarioSlice.actions;
 export const selectFuncionario = (state: RootState) => state.funcionario;
 export default funcionarioSlice.reducer

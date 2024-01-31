@@ -1,4 +1,4 @@
 export default interface Pais {
-    id: number,
+    id: string,
     nome: string,
 }

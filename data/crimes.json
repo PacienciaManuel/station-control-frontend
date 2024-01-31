@@ -1,0 +1,873 @@
+[
+    {
+        "descricao": "Homicídio"
+    },
+    {
+        "descricao": "Infanticídio"
+    },
+    {
+        "descricao": "Homicídio Por Negligência"
+    },
+    {
+        "descricao": "Violência Doméstica"
+    },
+    {
+        "descricao": "Sequestro"
+    },
+    {
+        "descricao": "Rapto"
+    },
+    {
+        "descricao": "Furto Qualificado"
+    },
+    {
+        "descricao": "Roubo"
+    },
+    {
+        "descricao": "Dano Qualificado"
+    },
+    {
+        "descricao": "Burla Qualificada"
+    },
+    {
+        "descricao": "Ofensa à Integridade Física por Negligência"
+    },
+    {
+        "descricao": "Ameaças"
+    },
+    {
+        "descricao": "Violação de Domicílio"
+    },
+    {
+        "descricao": "Furto Simples"
+    },
+    {
+        "descricao": "Abuso de Confiança Simples"
+    },
+    {
+        "descricao": "Dano Simples"
+    },
+    {
+        "descricao": "Burla Simples"
+    },
+    {
+        "descricao": "Subtracção de Menor"
+    },
+    {
+        "descricao": "Violação da Obrigação de Alimentos"
+    },
+    {
+        "descricao": "Difamação"
+    },
+    {
+        "descricao": "Injúria"
+    },
+    {
+        "descricao": "Difamação e Injúria com Publicidade e Calúnia"
+    },
+    {
+        "descricao": "Ofensa à Memória de Pessoa Falecida"
+    },
+    {
+        "descricao": "Furto"
+    },
+    {
+        "descricao": "Abuso de Confiança"
+    },
+    {
+        "descricao": "Furto de Uso de Veículo"
+    },
+    {
+        "descricao": "Apropriação Ilegítima de Coisa Achada"
+    },
+    {
+        "descricao": "Alteração de Marcos"
+    },
+    {
+        "descricao": "Burla Para Obtenção de Alimentos, Bebidas ou Serviços"
+    },
+    {
+        "descricao": "Abuso de Cartão de Garantia ou de Crédito"
+    },
+    {
+        "descricao": "Homicidio voluntário consumado"
+    },
+    {
+        "descricao": "Homicídio por negligência em acidente de viação"
+    },
+    {
+        "descricao": "Homicídio por negligência em outras circunstâncias"
+    },
+    {
+        "descricao": "Aborto"
+    },
+    {
+        "descricao": "Outros crimes contra a vida"
+    },
+    {
+        "descricao": "Crimes contra a integridade física"
+    },
+    {
+        "descricao": "Ofensa à integridade física voluntária grave"
+    },
+    {
+        "descricao": "Ofensa à integridade física voluntária simples"
+    },
+    {
+        "descricao": "Ofensa à integridade física por negligência em acidente de viação"
+    },
+    {
+        "descricao": "Ofensa à integridade física por negligência em outras circunstâncias"
+    },
+    {
+        "descricao": "Violência doméstica contra cônjuge ou análogos"
+    },
+    {
+        "descricao": "Violência doméstica contra menores"
+    },
+    {
+        "descricao": "Outros crimes de violência doméstica"
+    },
+    {
+        "descricao": "Maus tratos ou sobrecarga de menores"
+    },
+    {
+        "descricao": "Outros crimes de maus tratos"
+    },
+    {
+        "descricao": "Violação de regras de segurança"
+    },
+    {
+        "descricao": "Outros crimes contra a integridade física"
+    },
+    {
+        "descricao": "Crimes contra a liberdade pessoal"
+    },
+    {
+        "descricao": "Rapto, sequestro e tomada de reféns"
+    },
+    {
+        "descricao": "Ameaça e coacção"
+    },
+    {
+        "descricao": "Tráfico de pessoas"
+    },
+    {
+        "descricao": "Outros crimes contra a liberdade pessoal"
+    },
+    {
+        "descricao": "Crimes contra a liberdade e autodeterminação sexual"
+    },
+    {
+        "descricao": "Violação"
+    },
+    {
+        "descricao": "Abuso sexual de crianças, adolescentes e menores dependentes"
+    },
+    {
+        "descricao": "Lenocínio e pornografia de menores"
+    },
+    {
+        "descricao": "Outros crimes contra a liberdade e a autodeterminação sexual"
+    },
+    {
+        "descricao": "Crimes contra a honra"
+    },
+    {
+        "descricao": "Difamação, calúnia e injúria"
+    },
+    {
+        "descricao": "Crimes contra a honra cometidos através de meio de comunicação social"
+    },
+    {
+        "descricao": "Outros crimes contra a honra"
+    },
+    {
+        "descricao": "Crimes contra a reserva da vida privada"
+    },
+    {
+        "descricao": "Violação de domicílio e introdução em lugar vedado ao público"
+    },
+    {
+        "descricao": "Devassa da vida privada e violação de segredo"
+    },
+    {
+        "descricao": "Devassa por meio de informática"
+    },
+    {
+        "descricao": "Outros crimes contra a reserva da vida privada"
+    },
+    {
+        "descricao": "Outros crimes contra as pessoas"
+    },
+    {
+        "descricao": "Omissão de auxílio"
+    },
+    
+    {
+        "descricao": "Código Penal - Crimes Contra o Património"
+    },
+    {
+        "descricao": "Crimes contra a propriedade"
+    },
+    {
+        "descricao": "Furto, tráfico de obras de arte e outros bens culturais"
+    },
+    {
+        "descricao": "Furto de veículo motorizado"
+    },
+    {
+        "descricao": "Furto de máquinas industriais ou agrícolas"
+    },
+    {
+        "descricao": "Furto de motor de embarcação"
+    },
+    {
+        "descricao": "Furto de combustível em depósitos/máquinas agrícolas ou industriais"
+    },
+    {
+        "descricao": "Furto de metais não preciosos"
+    },
+    {
+        "descricao": "Furto de animais de explorações agro-pecuárias"
+    },
+    {
+        "descricao": "Furto de produtos agrícolas"
+    },
+    {
+        "descricao": "Furto em veículo motorizado"
+    },
+    {
+        "descricao": "Furto em residência com arrombamento, escalamento ou chaves falsas"
+    },
+    {
+        "descricao": "Furto em residência sem arrombamento, escalamento ou chaves falsas"
+    },
+    {
+        "descricao": "Furto em área anexa a residência"
+    },
+    {
+        "descricao": "Furto em supermercado"
+    },
+    {
+        "descricao": "Furto em edifício comercial ou industrial com arrombamento, escalamento ou chaves falsas"
+    },
+    {
+        "descricao": "Furto em edifício comercial ou industrial sem arrombamento, escalamento ou chaves falsas"
+    },
+    {
+        "descricao": "Furto em estabelecimento de ensino com arrombamento, escalamento ou chaves falsas"
+    },
+    {
+        "descricao": "Furto em outros edifícios com arrombamento, escalamento ou chaves falsas"
+    },
+    {
+        "descricao": "Furto por carteirista"
+    },
+    {
+        "descricao": "Furto de oportunidade/objectos não guardados"
+    },
+    {
+        "descricao": "Outros furtos"
+    },
+    {
+        "descricao": "Roubo por esticão"
+    },
+    {
+        "descricao": "Roubo na via pública (excepto por esticão)"
+    },
+    {
+        "descricao": "Roubo a residência"
+    },
+    {
+        "descricao": "Roubo de viatura"
+    },
+    {
+        "descricao": "Roubo a banco ou outro estabelecimento de crédito"
+    },
+    {
+        "descricao": "Roubo a tesouraria ou estação de correios"
+    },
+    {
+        "descricao": "Roubo a farmácias"
+    },
+    {
+        "descricao": "Roubo a ourivesarias"
+    },
+    {
+        "descricao": "Roubo a posto de abastecimento de combustível"
+    },
+    {
+        "descricao": "Roubo a outros edifícios comerciais ou industriais"
+    },
+    {
+        "descricao": "Roubo em estabelecimento de ensino"
+    },
+    {
+        "descricao": "Roubo em transportes públicos"
+    },
+    {
+        "descricao": "Roubo a transportes de valores"
+    },
+    {
+        "descricao": "Outros roubos"
+    },
+    {
+        "descricao": "Dano contra o património cultural"
+    },
+    {
+        "descricao": "Outro dano"
+    },
+    {
+        "descricao": "Abuso de confiança"
+    },
+    {
+        "descricao": "Outros crimes contra a propriedade"
+    },
+    {
+        "descricao": "Crimes contra o património em geral"
+    },
+    {
+        "descricao": "Burla com fraude bancária"
+    },
+    {
+        "descricao": "Burla relativa a seguros"
+    },
+    {
+        "descricao": "Burla para obtenção de alimentos/bebidas/serviços"
+    },
+    {
+        "descricao": "Burla informática e nas comunicações"
+    },
+    {
+        "descricao": "Burla relativa a trabalho ou emprego"
+    },
+    {
+        "descricao": "Outras burlas"
+    },
+    {
+        "descricao": "Extorsão"
+    },
+    {
+        "descricao": "Abuso de cartão de garantia ou de crédito"
+    },
+    {
+        "descricao": "Outros crimes contra o património em geral"
+    },
+    {
+        "descricao": "Crimes contra direitos patrimoniais"
+    },
+    {
+        "descricao": "Insolvência dolosa e negligente"
+    },
+    {
+        "descricao": "Receptação e auxílio material"
+    },
+    {
+        "descricao": "Outros crimes contra direitos patrimoniais"
+    },
+    {
+        "descricao": "Outros crimes contra o património"
+    },
+    {
+        "descricao": "Código Penal - Crimes Contra a Identidade Cultural e Integridade Pessoal (inclui crimes contra a paz até 2004)"
+    },
+    {
+        "descricao": "Crimes contra a identidade cultural e integridade pessoal (e crimes contra a paz/até 2004)"
+    },
+    {
+        "descricao": "Discriminação racial ou religiosa"
+    },
+    {
+        "descricao": "Tortura e outros tratamentos cruéis, degradantes ou desumanos"
+    },
+    {
+        "descricao": "Outros crimes contra a identidade cultural e integridade pessoal (e crimes contra a paz/até 2004)"
+    },
+    {
+        "descricao": "Código Penal - Crimes Contra a Vida em Sociedade"
+    },
+    {
+        "descricao": "Crimes contra a família"
+    },
+    {
+        "descricao": "Violação da obrigação de alimentos"
+    },
+    {
+        "descricao": "Subtracção de menores"
+    },
+    {
+        "descricao": "Outros crimes contra a família"
+    },
+    {
+        "descricao": "Crimes de falsificação"
+    },
+    {
+        "descricao": "Contrafacção/falsificação de moeda e passagem de moeda falsa"
+    },
+    {
+        "descricao": "Contrafacção/falsificação de título de crédito ou valores selados"
+    },
+    {
+        "descricao": "Falsificação de documentos, cunhos, marcas, chancelas, pesos e medidas"
+    },
+    {
+        "descricao": "Outros crimes de falsificação"
+    },
+    {
+        "descricao": "Crimes de perigo comum"
+    },
+    {
+        "descricao": "Incêndio/fogo posto em edifício, construção ou meio de transporte"
+    },
+    {
+        "descricao": "Incêndio/fogo posto floresta, mata, arvoredo ou seara"
+    },
+    {
+        "descricao": "Dano contra a natureza"
+    },
+    {
+        "descricao": "Poluição"
+    },
+    {
+        "descricao": "Corrupção de substâncias alimentares ou medicinais"
+    },
+    {
+        "descricao": "Perigo relativo a animais"
+    },
+    {
+        "descricao": "Detenção ou tráfico de armas proibidas"
+    },
+    {
+        "descricao": "Outros crimes de perigo comum"
+    },
+    {
+        "descricao": "Crimes contra a segurança das comunicações"
+    },
+    {
+        "descricao": "Pirataria aérea/outros crimes contra a segurança da aviação civil"
+    },
+    {
+        "descricao": "Condução de veículo com taxa de álcool igual/superior a 1,2g/l"
+    },
+    {
+        "descricao": "Condução perigosa de veículo rodoviário"
+    },
+    {
+        "descricao": "Outros crimes contra a segurança das comunicações"
+    },
+    {
+        "descricao": "Crimes de anti-sociabilidade perigosa"
+    },
+    {
+        "descricao": "Embriaguez e intoxicação"
+    },
+    {
+        "descricao": "Utilização de menor na mendicidade"
+    },
+    {
+        "descricao": "Crimes contra a paz pública"
+    },
+    {
+        "descricao": "Motim, instigação e apologia pública do crime"
+    },
+    {
+        "descricao": "Associação criminosa"
+    },
+    {
+        "descricao": "Outros crimes contra a paz pública"
+    },
+    {
+        "descricao": "Outros crimes contra a vida em sociedade"
+    },
+    {
+        "descricao": "Código Penal - Crimes Contra o Estado"
+    },
+    {
+        "descricao": "Crimes contra a soberania nacional"
+    },
+    {
+        "descricao": "Crimes contra a realização do Estado de Direito"
+    },
+    {
+        "descricao": "Tráfico de influências"
+    },
+    {
+        "descricao": "Outros crimes contra a realização do Estado de Direito"
+    },
+    {
+        "descricao": "Crimes eleitorais"
+    },
+    
+    {
+        "descricao": "Crimes contra a autoridade pública"
+    },
+    {
+        "descricao": "Resistência e coacção sobre funcionário"
+    },
+    {
+        "descricao": "Desobediência"
+    },
+    {
+        "descricao": "Tirada, evasão e motim de presos"
+    },
+    {
+        "descricao": "Violação de providências públicas"
+    },
+    {
+        "descricao": "Usurpação de funções"
+    },
+    {
+        "descricao": "Outros crimes contra a autoridade pública"
+    },
+    {
+        "descricao": "Crimes contra a realização da justiça"
+    },
+    {
+        "descricao": "Falsidade de depoimento, declaração, testemunho, perícia, interpretação ou tradução"
+    },
+    {
+        "descricao": "Branqueamento de vantagens de proveniência ilícita"
+    },
+    {
+        "descricao": "Detenção/prisão ilegal"
+    },
+    {
+        "descricao": "Violação de segredo de justiça"
+    },
+    {
+        "descricao": "Outros crimes contra a realização da justiça"
+    },
+    {
+        "descricao": "Crimes cometidos no exercício de funções públicas"
+    },
+    {
+        "descricao": "Corrupção"
+    },
+    {
+        "descricao": "Peculato"
+    },
+    {
+        "descricao": "Abuso de autoridade"
+    },
+    {
+        "descricao": "Outros crimes cometidos no exercício de funções públicas"
+    },
+    {
+        "descricao": "Outros crimes contra o Estado"
+    },
+    
+    {
+        "descricao": "Código Penal - Crimes contra animais de companhia"
+    },
+    {
+        "descricao": "Crimes contra animais de companhia"
+    },
+    {
+        "descricao": "Maus tratos a animais de companhia"
+    },
+    {
+        "descricao": "Abandono de animais de companhia"
+    },
+    {
+        "descricao": "Legislação Avulsa"
+    },
+    {
+        "descricao": "Crimes estritamente militares"
+    },
+    {
+        "descricao": "Infidelidade no serviço militar"
+    },
+    {
+        "descricao": "Deserção"
+    },
+    {
+        "descricao": "Insubordinação"
+    },
+    {
+        "descricao": "Outros crimes estritamente militares"
+    },
+    {
+        "descricao": "Crimes respeitantes a estupefacientes"
+    },
+    {
+        "descricao": "Tráfico de estupefacientes (inclui precursores)"
+    },
+    {
+        "descricao": "Consumo/Cultivo para consumo de estupefacientes"
+    },
+    {
+        "descricao": "Outros crimes respeitantes a estupefacientes"
+    },
+    {
+        "descricao": "Crimes de violação do direito internacional humanitário"
+    },
+    {
+        "descricao": "Crimes de terrorismo e organizações terroristas"
+    },
+    {
+        "descricao": "Organizações terroristas e terrorismo nacional"
+    },
+    {
+        "descricao": "Outras organizações terroristas e terrorismo internacional"
+    },
+    {
+        "descricao": "Crimes relativos à imigração ilegal"
+    },
+    {
+        "descricao": "Auxílio à imigração ilegal"
+    },
+    {
+        "descricao": "Associação de auxílio à imigração ilegal"
+    },
+    {
+        "descricao": "Angariação de mão-de-obra ilegal"
+    },
+    {
+        "descricao": "Casamento de conveniência"
+    },
+    {
+        "descricao": "Violação da medida de interdição de entrada"
+    },
+    {
+        "descricao": "Outros crimes relacionados com a imigração ilegal"
+    },
+    {
+        "descricao": "Crimes cometidos no exercício de actividades comercial ou financeira"
+    },
+    {
+        "descricao": "Abuso de informação"
+    },
+    {
+        "descricao": "Manipulação do mercado"
+    },
+    {
+        "descricao": "Outros crimes cometidos no exercício de actividades comercial ou financeira"
+    },
+    {
+        "descricao": "Crimes relativos à imprensa"
+    },
+    {
+        "descricao": "Crimes relativos à imprensa (excepto contra a honra)"
+    },
+    {
+        "descricao": "Crimes contra os direitos de autor e a propriedade industrial"
+    },
+    {
+        "descricao": "Crimes contra os direitos de autor"
+    },
+    {
+        "descricao": "Crimes contra a propriedade industrial"
+    },
+    {
+        "descricao": "Emissão de cheque sem provisão"
+    },
+    {
+        "descricao": "Crimes tributários comuns"
+    },
+    {
+        "descricao": "Burla tributária"
+    },
+    {
+        "descricao": "Frustração de créditos"
+    },
+    {
+        "descricao": "Violação de segredo"
+    },
+    {
+        "descricao": "Outros crimes tributários comuns"
+    },
+    {
+        "descricao": "Crimes aduaneiros"
+    },
+    {
+        "descricao": "Contrabando"
+    },
+    {
+        "descricao": "Fraude fiscal aduaneira"
+    },
+    {
+        "descricao": "Quebra de marcas e selos"
+    },
+    
+    {
+        "descricao": "Outros crimes aduaneiros ou n.e."
+    },
+    {
+        "descricao": "Crimes fiscais"
+    },
+    {
+        "descricao": "Fraude fiscal"
+    },
+    {
+        "descricao": "Abuso de confiança fiscal"
+    },
+    {
+        "descricao": "Crimes contra a segurança social"
+    },
+    {
+        "descricao": "Fraude contra a segurança social"
+    },
+    {
+        "descricao": "Abuso de confiança contra a segurança social"
+    },
+    {
+        "descricao": "Crimes contra a saúde pública"
+    },
+    {
+        "descricao": "Abate clandestino e aquisição de animais assim abatidos para consumo público"
+    },
+    {
+        "descricao": "Outros crimes contra a saúde/crime contra a saúde n.e."
+    },
+    {
+        "descricao": "Crimes contra a economia"
+    },
+    {
+        "descricao": "Crimes contra a genuinidade, qualidade ou composição de géneros alimentícios"
+    },
+    {
+        "descricao": "Fraude obtenção de subsídios, subvenções, créditos e desvio na sua utilização"
+    },
+    {
+        "descricao": "Especulação"
+    },
+    {
+        "descricao": "Outros crimes contra a economia/crimes contra a economia n.e."
+    },
+    {
+        "descricao": "Crimes de jogo"
+    },
+    {
+        "descricao": "Exploração ilícita de jogo"
+    },
+    {
+        "descricao": "Prática ilícita de jogo/presença em local de jogo ilícito"
+    },
+    {
+        "descricao": "Coacção à prática de jogo"
+    },
+    {
+        "descricao": "Jogo fraudulento"
+    },
+    {
+        "descricao": "Usura para jogo"
+    },
+    {
+        "descricao": "Material de jogo sem autorização"
+    },
+    {
+        "descricao": "Crimes de jogo n.e."
+    },
+    {
+        "descricao": "Crimes relativos à caça e pesca"
+    },
+    {
+        "descricao": "Crimes informáticos"
+    },
+    {
+        "descricao": "Reprodução ilegítima de programa protegido"
+    },
+    {
+        "descricao": "Acesso indevido ou ilegítimo/intercepção ilegítima"
+    },
+    {
+        "descricao": "Viciação ou destruição de dados/dano relativo a dados/programas"
+    },
+    {
+        "descricao": "Falsidade informática"
+    },
+    {
+        "descricao": "Sabotagem informática"
+    },
+    {
+        "descricao": "Outros crimes informáticos/crimes informáticos n.e."
+    },
+    {
+        "descricao": "Crimes relativos ao serviço militar"
+    },
+    {
+        "descricao": "Crimes marítimos"
+    },
+    {
+        "descricao": "Deserção e insubordinação (marítimos)"
+    },
+    {
+        "descricao": "Embarque clandestino (marítimos)"
+    },
+    {
+        "descricao": "Introdução de bebidas alcoólicas e substâncias perigosas (marítimos)"
+    },
+    {
+        "descricao": "Embarque/desembarque ilícitos de outra mercadoria (marítimos)"
+    },
+    {
+        "descricao": "Atentado contra a segurança da navegação (marítimos)"
+    },
+    {
+        "descricao": "Abandono do navio (marítimos)"
+    },
+    {
+        "descricao": "Recusa de socorros a náufragos (marítimos)"
+    },
+    {
+        "descricao": "Crimes relativos ao desporto"
+    },
+    {
+        "descricao": "213\tDano qualificado no âmbito de espectáculo desportivo"
+    },
+    {
+        "descricao": "Participação em rixa e ofensas à integridade física em grupo aquando de espectáculos desportivos"
+    },
+    {
+        "descricao": "Arremesso de objectos e invasão da área do espectáculo desportivo"
+    },
+    {
+        "descricao": "Outros crimes relativos ao desporto"
+    },
+    {
+        "descricao": "Crimes de condução sem habilitação legal"
+    },
+    {
+        "descricao": "Condução sem habilitação legal"
+    },
+    {
+        "descricao": "Estupro"
+    },
+    {
+        "descricao": "Calúnia"
+    },
+    {
+        "descricao": "Invasão de dispositivo informático"
+    },
+    {
+        "descricao": "Estelionato"
+    },
+    {
+        "descricao": "Falsificação de cartão de crédito ou débito"
+    },
+    {
+        "descricao": "Pirataria de software"
+    },
+    {
+        "descricao": "Plágio"
+    },
+    {
+        "descricao": "Falsa identidade virtual"
+    },
+    {
+        "descricao": "Apologia de crime"
+    },
+    {
+        "descricao": "Incitação ao crime"
+    },
+    {
+        "descricao": "Interrupção ou perturbação de serviço de informação de utilidade pública"
+    },
+    {
+        "descricao": "Ato obsceno e escrito ou objeto obsceno"
+    },
+    {
+        "descricao": "Favorecimento da prostituição"
+    }
+]

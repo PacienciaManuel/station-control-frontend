@@ -1,0 +1,303 @@
+Homicídio
+Infanticídio
+Homicídio Por Negligência
+Violência Doméstica
+Sequestro
+Rapto
+Furto Qualificado
+Roubo
+Dano Qualificado
+Burla Qualificada
+Ofensa à Integridade Física por Negligência
+Ameaças
+Violação de Domicílio
+Furto Simples
+Abuso de Confiança Simples
+Dano Simples
+Burla Simples
+Subtracção de Menor
+Violação da Obrigação de Alimentos
+Difamação
+Injúria
+Difamação e Injúria com Publicidade e Calúnia
+Ofensa à Memória de Pessoa Falecida
+Furto
+Abuso de Confiança
+Furto de Uso de Veículo
+Apropriação Ilegítima de Coisa Achada
+Alteração de Marcos
+Burla Para Obtenção de Alimentos, Bebidas ou Serviços
+Abuso de Cartão de Garantia ou de Crédito
+Homicidio voluntário consumado
+Homicídio por negligência em acidente de viação
+Homicídio por negligência em outras circunstâncias
+Aborto
+Outros crimes contra a vida
+Crimes contra a integridade física
+Ofensa à integridade física voluntária grave
+Ofensa à integridade física voluntária simples
+Ofensa à integridade física por negligência em acidente de viação
+Ofensa à integridade física por negligência em outras circunstâncias
+Violência doméstica contra cônjuge ou análogos
+Violência doméstica contra menores
+Outros crimes de violência doméstica
+Maus tratos ou sobrecarga de menores
+Outros crimes de maus tratos
+Violação de regras de segurança
+Outros crimes contra a integridade física
+Crimes contra a liberdade pessoal
+Rapto, sequestro e tomada de reféns
+Ameaça e coacção
+Tráfico de pessoas
+Outros crimes contra a liberdade pessoal
+Crimes contra a liberdade e autodeterminação sexual
+Violação
+Abuso sexual de crianças, adolescentes e menores dependentes
+Lenocínio e pornografia de menores
+Outros crimes contra a liberdade e a autodeterminação sexual
+Crimes contra a honra
+Difamação, calúnia e injúria
+Crimes contra a honra cometidos através de meio de comunicação social
+Outros crimes contra a honra
+Crimes contra a reserva da vida privada
+Violação de domicílio e introdução em lugar vedado ao público
+Devassa da vida privada e violação de segredo
+Devassa por meio de informática
+Outros crimes contra a reserva da vida privada
+Outros crimes contra as pessoas
+Omissão de auxílio
+Outros crimes contra as pessoas
+Código Penal - Crimes Contra o Património
+Crimes contra a propriedade
+Furto, tráfico de obras de arte e outros bens culturais
+Furto de veículo motorizado
+Furto de máquinas industriais ou agrícolas
+Furto de motor de embarcação
+Furto de combustível em depósitos/máquinas agrícolas ou industriais
+Furto de metais não preciosos
+Furto de animais de explorações agro-pecuárias
+Furto de produtos agrícolas
+Furto em veículo motorizado
+Furto em residência com arrombamento, escalamento ou chaves falsas
+Furto em residência sem arrombamento, escalamento ou chaves falsas
+Furto em área anexa a residência
+Furto em supermercado
+Furto em edifício comercial ou industrial com arrombamento, escalamento ou chaves falsas
+Furto em edifício comercial ou industrial sem arrombamento, escalamento ou chaves falsas
+Furto em estabelecimento de ensino com arrombamento, escalamento ou chaves falsas
+Furto em outros edifícios com arrombamento, escalamento ou chaves falsas
+Furto por carteirista
+Furto de oportunidade/objectos não guardados
+Outros furtos
+Roubo por esticão
+Roubo na via pública (excepto por esticão)
+Roubo a residência
+Roubo de viatura
+Roubo a banco ou outro estabelecimento de crédito
+Roubo a tesouraria ou estação de correios
+Roubo a farmácias
+Roubo a ourivesarias
+Roubo a posto de abastecimento de combustível
+Roubo a outros edifícios comerciais ou industriais
+Roubo em estabelecimento de ensino
+Roubo em transportes públicos
+Roubo a transportes de valores
+Outros roubos
+Dano contra o património cultural
+Outro dano
+Abuso de confiança
+Outros crimes contra a propriedade
+Crimes contra o património em geral
+Burla com fraude bancária
+Burla relativa a seguros
+Burla para obtenção de alimentos/bebidas/serviços
+Burla informática e nas comunicações
+Burla relativa a trabalho ou emprego
+Outras burlas
+Extorsão
+Abuso de cartão de garantia ou de crédito
+Outros crimes contra o património em geral
+Crimes contra direitos patrimoniais
+Insolvência dolosa e negligente
+Receptação e auxílio material
+Outros crimes contra direitos patrimoniais
+Outros crimes contra o património
+Outros crimes contra o património
+Código Penal - Crimes Contra a Identidade Cultural e Integridade Pessoal (inclui crimes contra a paz até 2004)
+Crimes contra a identidade cultural e integridade pessoal (e crimes contra a paz/até 2004)
+Discriminação racial ou religiosa
+Tortura e outros tratamentos cruéis, degradantes ou desumanos
+Outros crimes contra a identidade cultural e integridade pessoal (e crimes contra a paz/até 2004)
+Código Penal - Crimes Contra a Vida em Sociedade
+Crimes contra a família
+Violação da obrigação de alimentos
+Subtracção de menores
+Outros crimes contra a família
+Crimes de falsificação
+Contrafacção/falsificação de moeda e passagem de moeda falsa
+Contrafacção/falsificação de título de crédito ou valores selados
+Falsificação de documentos, cunhos, marcas, chancelas, pesos e medidas
+Outros crimes de falsificação
+Crimes de perigo comum
+Incêndio/fogo posto em edifício, construção ou meio de transporte
+Incêndio/fogo posto floresta, mata, arvoredo ou seara
+Dano contra a natureza
+Poluição
+Corrupção de substâncias alimentares ou medicinais
+Perigo relativo a animais
+Detenção ou tráfico de armas proibidas
+Outros crimes de perigo comum
+Crimes contra a segurança das comunicações
+Pirataria aérea/outros crimes contra a segurança da aviação civil
+Condução de veículo com taxa de álcool igual/superior a 1,2g/l
+Condução perigosa de veículo rodoviário
+Outros crimes contra a segurança das comunicações
+Crimes de anti-sociabilidade perigosa
+Embriaguez e intoxicação
+Utilização de menor na mendicidade
+Crimes contra a paz pública
+Motim, instigação e apologia pública do crime
+Associação criminosa
+Outros crimes contra a paz pública
+Outros crimes contra a vida em sociedade
+Outros crimes contra a vida em sociedade
+Código Penal - Crimes Contra o Estado
+Crimes contra a soberania nacional
+Crimes contra a soberania nacional
+Crimes contra a realização do Estado de Direito
+Tráfico de influências
+Outros crimes contra a realização do Estado de Direito
+Crimes eleitorais
+Crimes eleitorais
+Crimes contra a autoridade pública
+Resistência e coacção sobre funcionário
+Desobediência
+Tirada, evasão e motim de presos
+Violação de providências públicas
+Usurpação de funções
+Outros crimes contra a autoridade pública
+Crimes contra a realização da justiça
+Falsidade de depoimento, declaração, testemunho, perícia, interpretação ou tradução
+Branqueamento de vantagens de proveniência ilícita
+Detenção/prisão ilegal
+Violação de segredo de justiça
+Outros crimes contra a realização da justiça
+Crimes cometidos no exercício de funções públicas
+Corrupção
+Peculato
+Abuso de autoridade
+Outros crimes cometidos no exercício de funções públicas
+Outros crimes contra o Estado
+Outros crimes contra o Estado
+Código Penal - Crimes contra animais de companhia
+Crimes contra animais de companhia
+Maus tratos a animais de companhia
+Abandono de animais de companhia
+Legislação Avulsa
+Crimes estritamente militares
+Infidelidade no serviço militar
+Deserção
+Insubordinação
+Abuso de autoridade
+Outros crimes estritamente militares
+Crimes respeitantes a estupefacientes
+Tráfico de estupefacientes (inclui precursores)
+Consumo/Cultivo para consumo de estupefacientes
+Outros crimes respeitantes a estupefacientes
+Crimes de violação do direito internacional humanitário
+Crimes de violação do direito internacional humanitário
+Crimes de terrorismo e organizações terroristas
+Organizações terroristas e terrorismo nacional
+Outras organizações terroristas e terrorismo internacional
+Crimes relativos à imigração ilegal
+Auxílio à imigração ilegal
+Associação de auxílio à imigração ilegal
+Angariação de mão-de-obra ilegal
+Casamento de conveniência
+Violação da medida de interdição de entrada
+Outros crimes relacionados com a imigração ilegal
+Crimes cometidos no exercício de actividades comercial ou financeira
+Abuso de informação
+Manipulação do mercado
+Outros crimes cometidos no exercício de actividades comercial ou financeira
+Crimes relativos à imprensa
+Crimes relativos à imprensa (excepto contra a honra)
+Crimes contra os direitos de autor e a propriedade industrial
+Crimes contra os direitos de autor
+Crimes contra a propriedade industrial
+Emissão de cheque sem provisão
+Emissão de cheque sem provisão
+Crimes tributários comuns
+Burla tributária
+Frustração de créditos
+Violação de segredo
+Outros crimes tributários comuns
+Crimes aduaneiros
+Contrabando
+Fraude fiscal aduaneira
+Quebra de marcas e selos
+Receptação e auxílio material
+Outros crimes aduaneiros ou n.e.
+Crimes fiscais
+Fraude fiscal
+Abuso de confiança fiscal
+Crimes contra a segurança social
+Fraude contra a segurança social
+Abuso de confiança contra a segurança social
+Crimes contra a saúde pública
+Abate clandestino e aquisição de animais assim abatidos para consumo público
+Outros crimes contra a saúde/crime contra a saúde n.e.
+Crimes contra a economia
+Crimes contra a genuinidade, qualidade ou composição de géneros alimentícios
+Fraude obtenção de subsídios, subvenções, créditos e desvio na sua utilização
+Especulação
+Outros crimes contra a economia/crimes contra a economia n.e.
+Crimes de jogo
+Exploração ilícita de jogo
+Prática ilícita de jogo/presença em local de jogo ilícito
+Coacção à prática de jogo
+Jogo fraudulento
+Usura para jogo
+Material de jogo sem autorização
+Crimes de jogo n.e.
+Crimes relativos à caça e pesca
+Crimes relativos à caça e pesca
+Crimes informáticos
+Reprodução ilegítima de programa protegido
+Acesso indevido ou ilegítimo/intercepção ilegítima
+Viciação ou destruição de dados/dano relativo a dados/programas
+Falsidade informática
+Sabotagem informática
+Outros crimes informáticos/crimes informáticos n.e.
+Crimes relativos ao serviço militar
+Crimes relativos ao serviço militar
+Crimes marítimos
+Deserção e insubordinação (marítimos)
+Embarque clandestino (marítimos)
+Introdução de bebidas alcoólicas e substâncias perigosas (marítimos)
+Embarque/desembarque ilícitos de outra mercadoria (marítimos)
+Atentado contra a segurança da navegação (marítimos)
+Abandono do navio (marítimos)
+Recusa de socorros a náufragos (marítimos)
+Crimes relativos ao desporto
+213	Dano qualificado no âmbito de espectáculo desportivo
+Participação em rixa e ofensas à integridade física em grupo aquando de espectáculos desportivos
+Arremesso de objectos e invasão da área do espectáculo desportivo
+Outros crimes relativos ao desporto
+Crimes de condução sem habilitação legal
+Condução sem habilitação legal
+Estupro
+Calúnia
+Difamação
+Injúria
+Invasão de dispositivo informático
+Estelionato
+Falsificação de cartão de crédito ou débito
+Pirataria de software
+Plágio
+Falsa identidade virtual
+Apologia de crime
+Incitação ao crime
+Interrupção ou perturbação de serviço de informação de utilidade pública
+Ato obsceno e escrito ou objeto obsceno
+Favorecimento da prostituição

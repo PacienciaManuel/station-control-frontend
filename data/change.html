@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="file" name="file" id="file" multiple>
+    <script>
+        document.querySelector("#file").addEventListener("change", async (evt) => {
+            console.log(evt.target.files)
+            const datas1 = JSON.parse((await evt.target.files[0].text()));
+            const datas2 = JSON.parse((await evt.target.files[1].text()));
+            const datas3 = JSON.parse((await evt.target.files[2].text()));
+            console.log(datas1.map(data => data.dataCriacao));
+            console.log(datas2.map(data => data.dataCriacao));
+            console.log(datas3.map(data => data.dataCriacao));
+        })
+    </script>
+</body>
+</html>

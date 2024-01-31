@@ -4,6 +4,7 @@ import { Nunito } from 'next/font/google';
 import ReduxProvider from '@/redux/ReduxProvider';
 import ThemeProviders from '@/providers/ThemeProviders';
 import BeforeUnloadProvider from '@/providers/BeforeUnloadProvider';
+import ReactQueryProvider from '@/providers/ReactQueryProvider';
 
 const nunito = Nunito({ subsets: ['latin'] });
 
@@ -23,11 +24,13 @@ export default function RootLayout({ children }: {children: React.ReactNode}) {
             </head>
             <body className={nunito.className}>
                 <ReduxProvider>
-                    <ThemeProviders>
-                        <BeforeUnloadProvider>
-                            {children}
-                        </BeforeUnloadProvider>
-                    </ThemeProviders>
+                    <ReactQueryProvider>
+                        <ThemeProviders>
+                            <BeforeUnloadProvider>
+                                {children}
+                            </BeforeUnloadProvider>
+                        </ThemeProviders>
+                    </ReactQueryProvider>
                 </ReduxProvider>
             </body>
         </html>

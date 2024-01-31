@@ -887,21 +887,49 @@
             "Até que ele precise que lhe digam o que quer. Mas na Internet. Mas isso é feito com aljava ou flechas. É fácil decorar o laço no tincidunt. Coloque o barco em luto. Até os veículos dos jogadores de futebol, os desenvolvedores estão prontos para decorar o relógio. Até que ele precisou de uma ervilha. Morbi free diam, gargantas em ódio e flechas em ódio ao inimigo. No basquete, o preço é tão alto quanto no futebol. Mecenas scelerisque urna condimentum Tellus malesuada, nec rutrum purus tincidunt. Até então, o próprio futebol. As crianças na macro não têm momentos tranquilos. Por algum tempo, antes do escritório, ele não queria beber apenas.",
         ];
 
+        const provincias = [
+            {nome: "Gengo", sigla: "BGO", municipios: "Ambriz, Bula Atumba, Dande, Dembos, Nambuangongo, Pango Aluquém".split(", ")},
+            {nome: "Benguela", sigla: "BGU", municipios: "Balombo, Baía Farta, Benguela, Bocoio, Caimbambo, Catumbela, Chongorói, Cubal, Ganda, Lobito".split(", ")},
+            {nome: "Bié", sigla: "BIE", municipios: "Andulo, Camacupa, Catabola, Chinguar, Chitembo, Cuemba, Cunhinga, Cuíto, Nharea".split(", ")},
+            {nome: "Cabinda", sigla: "CAB", municipios: "Belize, Buco-Zau, Cabinda, Cacongo".split(", ")},
+            {nome: "Cuando-Cubango", sigla: "CCU", municipios: "Calai, Cuangar, Cuchi, Cuito Cuanavale, Dirico, Mavinga, Menongue, Nancova, Rivungo".split(", ")},
+            {nome: "Cuanza Norte", sigla: "CNO", municipios: "Ambaca, Banga, Bolongongo, Cambambe, Cazengo, Golungo Alto, Gonguembo, Lucala, Quiculungo, Samba Caju".split(", ")},
+            {nome: "Cuanza Sul", sigla: "CUS", municipios: "Amboim, Cassongue, Cela, Conda, Ebo, Libolo, Mussende, Porto Amboim, Quibala, Quilenda, Seles, Sumbe".split(", ")},
+            {nome: "Cunene", sigla: "CNN", municipios: "Cahama, Cuanhama, Curoca, Cuvelai, Namacunde, Ombadja".split(", ")},
+            {nome: "Huambo", sigla: "HUA", municipios: "Bailundo, Cachiungo, Caála, Ecunha, Huambo, Londuimbali, Longonjo, Mungo, Chicala-Choloanga, Chinjenje, Ucuma".split(", ")},
+            {nome: "Huíla", sigla: "HUI", municipios: "Caconda, Cacula, Caluquembe, Chiange, Chibia, Chicomba, Chipindo, Cuvango, Humpata, Jamba, Lubango, Matala, Quilengues, Quipungo".split(", ")},
+            {nome: "Luanda", sigla: "LUA", municipios: "Belas, Cacuaco, Cazenga, Ícolo e Bengo, Luanda, Quilamba Quiaxi, Quissama, Talatona, Viana".split(", ")},
+            {nome: "Lunda Norte", sigla: "LNO", municipios: "Cambulo, Capenda-Camulemba, Caungula, Chitato, Cuango, Cuílo, Lóvua, Lubalo, Lucapa, Xá-Muteba".split(", ")},
+            {nome: "Lunda Sul", sigla: "LSU", municipios: "Cacolo, Dala, Muconda, Saurimo".split(", ")},
+            {nome: "Malanje", sigla: "MAL", municipios: "Cacuso, Calandula, Cambundi-Catembo, Cangandala, Caombo, Cuaba Nzoji, Cunda-Dia-Baze, Luquembo, Malanje, Marimba, Massango, Mucari, Quela, Quirima".split(", ")},
+            {nome: "Moxico", sigla: "MOX", municipios: "Alto Zambeze, Bundas, Camanongue, Léua, Luau, Luacano, Luchazes, Cameia, Moxico".split(", ")},
+            {nome: "Namibe", sigla: "NAM", municipios: "Bibala, Camucuio, Moçâmedes, Tômbua, Virei".split(", ")},
+            {nome: "Uíge", sigla: "UIG", municipios: "Alto Cauale, Ambuíla, Bembe, Buengas, Bungo, Damba, Milunga, Mucaba, Negage, Puri, Quimbele, Quitexe, Sanza Pombo, Songo, Uíge, Zombo".split(", ")},
+            {nome: "Zaire", sigla: "ZAI", municipios: "Cuimba, Mabanza Congo, Nóqui, Nezeto, Soio, Tomboco".split(", ")}
+        ]
+       
+        function removerAcentos(texto) {
+            return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        }
+
         function randomIntFromInterval(min, max) { // min and max included 
             return Math.floor(Math.random() * (max - min + 1) + min)
         }
 
-        console.log(users.map(user =>({
-            nome: user.nome,
-            genero: user.genero,
-            dataNascimento: user.dataNascimento,
-            email: user.email,
-            papel: Math.random() - 0.5 > 0 ? "Administrador" : "Usuário",
-            senha: user.senha,
-            morada: `Casa ${randomIntFromInterval(1, 2000)}, Rua ${randomIntFromInterval(1, 2000)} - Viana - Luanda`,
-            numero: `+244 ${randomIntFromInterval(912_000_000, 999_000_000)}`,
-            notaInformativa: lorems[Math.floor(Math.random() * lorems.length)],
-        })));
+        console.log(users.map(user => {
+            const provincia = provincias[randomIntFromInterval(0,provincias.length - 1)];
+            return {
+                nome: user.nome,
+                genero: user.genero,
+                dataNascimento: user.dataNascimento,
+                email: removerAcentos(user.email),
+                papel: Math.random() - 0.5 > 0 ? "Administrador" : "Usuário",
+                senha: user.senha,
+                morada: `Casa ${randomIntFromInterval(1, 2000)}, Rua ${randomIntFromInterval(1, 2000)} - ${provincia.municipios[randomIntFromInterval(0,provincia.municipios.length - 1)]} - ${provincia.nome} - Angola`,
+                numero: `+244 ${randomIntFromInterval(912_000_000, 999_000_000)}`,
+                biografia: lorems[Math.floor(Math.random() * lorems.length)],
+            }
+        }));
     </script>
 </body>
 </html>

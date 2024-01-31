@@ -1,14 +1,8 @@
 import api from "./api";
 import axios from "axios";
 import Login from "@/model/Login";
-import Usuario from "@/model/Funcionario";
+import LoginResponse from "@/model/LoginResponse";
 
-interface LoginResponse {
-    tipo: string,
-    acesso: string,
-    usuario: Usuario,
-    atualizacao: string,
-}
 
 interface FrontendAuthorization {
     frontendAuthorization: string,
@@ -21,8 +15,8 @@ class LoginService {
         return api.post<LoginResponse>(LoginService.URL, login);
     }
 
-    frontendAuthorization(usuario: Usuario) {
-        return axios.post<FrontendAuthorization>("/api/authorization", usuario);
+    frontendAuthorization(loginResponse: LoginResponse) {
+        return axios.post<FrontendAuthorization>("/api/authorization", loginResponse);
     }
 }
 

@@ -26,6 +26,13 @@ class SessionManager {
         setCookie(FRONT_END_AUTHORIZATION, frontendAuthorization);
     }
     
+    refreshSession({ apiAccessToken, apiRefreshToken, apiTokenType }:ApiToken) {
+        SessionManager.SESSION = true;
+        SessionManager.API_TOKEN_TYPE = apiTokenType;
+        SessionManager.API_ACCESS_TOKEN = apiAccessToken;
+        SessionManager.API_REFRESH_TOKEN = apiRefreshToken;
+    }
+    
     isSession(){
         return SessionManager.SESSION;
     }

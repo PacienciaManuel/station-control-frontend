@@ -1,6 +1,7 @@
 import TimeAgo from "javascript-time-ago";
 import pt from 'javascript-time-ago/locale/pt';
 
+
 TimeAgo.addDefaultLocale(pt);
 
 class TimeAgoManager {

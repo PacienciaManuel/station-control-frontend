@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit'
 import funcionarioSlicer from './slicer/funcionarioSlicer';
+import totalsSlicer from './slicer/totalsSlicer';
 
 export const makeStore = () => {
     return configureStore({
         reducer: {
+            totals: totalsSlicer,
             funcionario: funcionarioSlicer,
         }
     });

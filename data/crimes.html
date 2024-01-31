@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="file" name="crimes" id="crimes">
+    <script>
+        document.querySelector("#crimes").addEventListener("change", async (evt) => {
+            const file = evt.target.files[0];
+            const crimes = (await file.text()).split("\n").map(value => value.trim());;
+            for (let i = 0; i < crimes.length; i++) {
+                for (let j = i + 1; j < crimes.length; j++) {
+                    if(crimes[i] == crimes[j]) {
+                        delete crimes[j];
+                    }
+                }
+            }
+            console.log(crimes.map(value => ({descricao: value})));
+        }); 
+    </script>
+</body>
+</html>

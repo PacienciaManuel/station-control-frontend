@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="file" name="file" id="file" multiple>
+    <script>
+        function generateRandomDate(from, to) {
+            return new Date(
+                from.getTime() +
+                Math.random() * (to.getTime() - from.getTime()),
+            );
+        }
+
+        function randomIntFromInterval(min, max) { // min and max included 
+            return Math.floor(Math.random() * (max - min + 1) + min)
+        }
+
+        document.querySelector("#file").addEventListener("change", async (evt) => {
+            const total = 2000;
+            const notifications = [];
+            const file = evt.target.files[0];
+            const descriptions = (await evt.target.files[0].text()).split("\n").map(t => t.trim()).filter(t => t !== "");
+            const titles = (await evt.target.files[1].text()).split("\n").map(t => t.trim()).filter(t => t !== "");
+            for (let i = 0; i < total; i++) {
+                notifications.push({
+                    titulo: titles[randomIntFromInterval(0, titles.length - 1)],
+                    descricao: descriptions[randomIntFromInterval(0, descriptions.length - 1)],
+                })
+            }
+            // console.log(occurrences);
+            // console.log(lorens)
+            console.log(notifications)
+        })
+    </script>
+</body>
+</html>

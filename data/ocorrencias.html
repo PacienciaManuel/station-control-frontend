@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="file" name="file" id="file">
+    <script>
+        const total = 2000;
+        const occurrences = [];
+        const dataInicio = new Date(1970, 0, 1)
+        const dataFim = new Date(Date.now());
+        const status = ["Análise", "Progresso", "Concluido"]
+        function generateRandomDate(from, to) {
+            return new Date(
+                from.getTime() +
+                Math.random() * (to.getTime() - from.getTime()),
+            );
+        }
+
+        function randomIntFromInterval(min, max) { // min and max included 
+            return Math.floor(Math.random() * (max - min + 1) + min)
+        }
+
+        document.querySelector("#file").addEventListener("change", async (evt) => {
+            const file = evt.target.files[0];
+            const text = await file.text();
+            const lorens = text.split("\n").map(t => t.trim()).filter(t => t !== "");
+            for (let i = 0; i < total; i++) {
+                occurrences.push({
+                    status: status[randomIntFromInterval(0, status.length - 1)],
+                    dataOcorrencia: generateRandomDate(dataInicio, dataFim).toISOString(),
+                    descricao: lorens[randomIntFromInterval(0, lorens.length - 1)],
+                })
+            }
+            console.log(occurrences);
+        })
+    </script>
+</body>
+</html>
